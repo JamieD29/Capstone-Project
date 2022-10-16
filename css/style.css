@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    /* font-family: 'Jost', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto', sans-serif; */
+}
+
+body a, button, .btn {
+    cursor: pointer !important;
+    font-family: 'Jost', sans-serif;
+}
+
+.container{
+    max-width:1520px ;
+    margin: auto;
+}
