@@ -1,0 +1,38 @@
+/* Header */
+.header{
+    padding:0 180px;
+}
+
+
+
+.header .navbar-collapse{
+    flex-grow:initial;
+}
+
+a.navbar-brand {
+    font-size: 34px;
+    font-weight: 600;
+    color: #189A46;
+}
+
+a.navbar-brand:hover {
+    color: #189A46;
+}
+
+.navbar-nav .nav-item a.active{
+    color: #189A46 !important;
+}
+
+li.nav-item {
+    margin-right: 25px;
+}
+
+.header .navbar-nav .nav-item .nav-link{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #000c04;
+}
+
+.dropdown-toggle::after{
+    content: none;
+}
