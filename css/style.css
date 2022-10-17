@@ -93,3 +93,21 @@ a.dropdown-item:hover{
 }
 
 /* End of Header */
+
+/* Title */
+.title h6{
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #f53626;
+    margin-bottom: 5px;
+}
+
+.title h3{
+    font-size: 40px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* End of Title */
