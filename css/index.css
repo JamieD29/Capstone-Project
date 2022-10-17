@@ -1,12 +1,8 @@
-
-
-
-
 .carousel{
     position: relative;
 }
 #PoochCarousel .carousel-inner img{
-    height: 56rem;
+    height: 96vh;
     object-fit: cover;
 } 
 
@@ -25,17 +21,18 @@
     max-width: 700px;
     text-align: left;
     
-    top: 55%;
-    left: 20%;
-    transform: translateY(-55%);
+    top: 50%;
+    left: 12%;
+    transform: translateY(-50%);
 }
 
 .carousel-inner .caption__center{
     left: 43.5%;
+  
 }
 
 .carousel-inner .carousel-caption .caption__title h5{
-    font-size: 66px;
+    font-size: 63px;
     line-height: 76px;
     font-weight: 700;
     color: #fff;
@@ -90,23 +87,53 @@
     border-radius: 20px;
     margin: 0 8px;
     background-clip: initial;
-    opacity: initial;
+    opacity: 0.8;
     border-top: initial;
     border-bottom: 7px solid transparent;
 }
-#PoochCarousel .carousel-indicators [data-bs-target]:hover{
+
+#PoochCarousel .carousel-indicators button:hover{
     width: 30px;
-    border-radius: 20px;
-    margin: 0 8px;
-    background-clip: initial;
-    opacity: initial;
-    border-top: initial;
-    border-bottom: 7px solid transparent;
     background-color: #189A46;
-   
 }
+
 .carousel-indicators .active  {
-    border: 11px solid transparent;
+    border: 10px solid transparent;
     background-color: #189A46;
-    opacity: 1;
+}
+
+
+/* About us */
+.aboutus{
+    padding: 3rem 0;
+}
+
+.aboutus .aboutus__cover {
+    margin: 0 160px;
+    padding: 48px 25px;
+    
+}
+.aboutus .content{
+    margin: 0 215px;
+    text-align: center;
+}
+
+.aboutus .content p {
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #696969;
+    font-family: 'Jost', sans-serif;
+    margin: 20px 0;
+}
+
+.aboutus .content a{
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0c0c0c;
+    text-decoration: none;
+    border-bottom: 2px solid #189A46;
+}
+.aboutus .content a:hover{
+    color: #189A46;
 }
