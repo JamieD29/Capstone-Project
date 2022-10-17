@@ -1,0 +1,112 @@
+
+
+
+
+.carousel{
+    position: relative;
+}
+#PoochCarousel .carousel-inner img{
+    height: 56rem;
+    object-fit: cover;
+} 
+
+#PoochCarousel .carousel-inner .carousel-item::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0c0c0c;
+    opacity: .6;
+}
+
+.carousel-inner .carousel-caption{
+    max-width: 700px;
+    text-align: left;
+    
+    top: 55%;
+    left: 20%;
+    transform: translateY(-55%);
+}
+
+.carousel-inner .caption__center{
+    left: 43.5%;
+}
+
+.carousel-inner .carousel-caption .caption__title h5{
+    font-size: 66px;
+    line-height: 76px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+
+}
+
+.carousel-inner .carousel-caption .caption__title p{
+  
+    color: #fff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 30px;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+.carousel-inner .carousel-caption .caption__btn{
+    margin-top: 50px;
+}
+
+.carousel-inner .carousel-caption .caption__btn a:first-child{
+    padding: 12px 35px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #189A46;
+    text-decoration: none;
+}
+.carousel-inner .carousel-caption .caption__btn a:last-child{
+    padding: 12px 35px;
+    margin-left: 10px;
+    font-size: 18px;
+    line-height: 28px;
+    text-transform: capitalize;
+    font-weight: 400;
+    transition: 0.3s ease-in;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    text-decoration: none;
+}
+#PoochCarousel .carousel-indicators{
+    margin-bottom: 40px;
+}
+#PoochCarousel .carousel-indicators [data-bs-target]{
+    width: 10px;
+    border-radius: 20px;
+    margin: 0 8px;
+    background-clip: initial;
+    opacity: initial;
+    border-top: initial;
+    border-bottom: 7px solid transparent;
+}
+#PoochCarousel .carousel-indicators [data-bs-target]:hover{
+    width: 30px;
+    border-radius: 20px;
+    margin: 0 8px;
+    background-clip: initial;
+    opacity: initial;
+    border-top: initial;
+    border-bottom: 7px solid transparent;
+    background-color: #189A46;
+   
+}
+.carousel-indicators .active  {
+    border: 11px solid transparent;
+    background-color: #189A46;
+    opacity: 1;
+}
