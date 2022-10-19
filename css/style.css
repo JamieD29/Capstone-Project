@@ -94,6 +94,10 @@ li.nav-item {
     content: none;
 }
 
+a.dropdown-item{
+    transition: all 0.5s;
+}
+
 a.dropdown-item:hover{
     background-color:#189A46 ;
     color: white;

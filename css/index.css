@@ -78,6 +78,11 @@
     background-color: transparent;
     color: white;
     text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+.carousel-inner .carousel-caption .caption__btn a:last-child:hover{
+    background-color: #fff;
+    color: #189A46;
 }
 #PoochCarousel .carousel-indicators{
     margin-bottom: 40px;
@@ -136,6 +141,7 @@
 }
 .aboutus .content a:hover{
     color: #189A46;
+    transition: 0.3s ease-in-out;
 }
 
 /* Services */
@@ -196,4 +202,159 @@
 }
 .services .row .col-4 .card .read:hover{
     color: #189A46;
+    transition: 0.3s ease-in-out;
+}
+
+/* Offers */
+.offers {
+    padding: 3rem 0 ;
+}
+
+.offers .cover{
+    margin: 0 140px;
+    padding: 48px 25px;
+
+}
+.offers .cover .row .col-6 {
+    align-self: center;
+}
+
+.offers .cover .row .col-6 .content__col__left{
+    padding: 0 10px 0 50px;
+   
+}
+
+.offers .cover .row .col-6 .content__col__left img{
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+}
+.offers .cover .row .col-6 .content__col__right p{
+    line-height: 24.5px;
+    margin: 15px 0 35px 0;
+    font-size: 16px;
+}
+
+.offers .cover .row .col-6 .content__col__right ul{
+    padding-left: initial;
+}
+
+.offers .cover .row .col-6 .content__col__right ul li{
+    list-style: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    margin: 15px 0;
+}
+
+.offers .cover .row .col-6 .content__col__right ul li i{
+    padding: 8px;
+    background-color:rgba(147, 107, 232, 0.05);
+    border-radius: 50%;
+    font-size: 10px;
+    color: #189A46;
+    margin-right: 12px;
+}
+
+/* Experts */
+.experts{
+    padding: 3rem 0;
+    background-color: #f9f7fe;
+}
+
+.experts .cover{
+    text-align: center;
+    margin: 0 140px;
+    padding: 48px 25px;
+}
+
+.experts .cover .title{
+    margin-bottom: 3rem;
+}
+.experts .cover .row .col-3 .card{
+    border: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+
+.experts .cover .row .col-3 .card img{
+    width: 100%;
+    height: auto;
+    transition: all 0.3s linear;
+}
+.experts .cover .row .col-3:hover .card img{
+    transform: scale(1.1,1.1);
+  
+}
+.experts .cover .row .col-3:hover .info h4{
+    color: #189A46;
+}
+.experts .cover .row .col-3 .social a i:hover{
+    color: white;
+    background-color:#189A46 ;
+}
+.experts .cover .row .col-3 .info
+{
+    margin-top: 16px;
+    margin-bottom: 15px;
+}
+
+.experts .cover .row .col-3 .info h4{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: initial;
+}
+
+.experts .cover .row .col-3 .info h6{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: #696969;
+    text-transform: capitalize;
+    margin: initial;
+    
+}
+.experts .cover .row .col-3 .social a{
+    text-decoration: none;
+}
+.experts .cover .row .col-3 .social a i{
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 3px;
+    color: #189A46;
+    background-color: rgba(147, 107, 232, 0.05);
+    font-size: 12px;
+}
+
+/* Number */
+.number{
+    padding: 16px 0 ;
+    background-color: #189A46;
+}
+
+.number .cover{
+    text-align: center;
+    margin: 0 110px;
+    padding: 48px 50px;
+}
+
+.number .cover .col-3 .col__content span{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.number .cover .col-3 .col__content h4{
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+    color: #fff;
+    margin-top: 10px;
+    opacity: 0.8;
+    font-weight: 400;
 }
