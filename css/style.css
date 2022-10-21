@@ -32,7 +32,7 @@ p {
     left: 0;
     z-index: 6;
     background-color: white;
-
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
 }
 
 .header .container .navbar .container-fluid{
@@ -188,7 +188,7 @@ a.dropdown-item:hover{
 .banner .content .banner__content p:first-of-type{
     color: #189A46;
     margin-right: 10px;
-
+    text-transform: capitalize;
 }
 
 .banner .content .banner__content i{
@@ -200,5 +200,6 @@ a.dropdown-item:hover{
 .banner .content .banner__content p:last-of-type{
     color: #fff;
     margin-left: 10px;
+    text-transform: capitalize;
 }
 /* End of Banner */

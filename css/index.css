@@ -143,24 +143,24 @@
     padding: 48px 25px;
 }
 
-.services .row .col-4 .card{
+.services .row  .card{
     border: transparent;
     margin-bottom: 25px;
     padding: 40px 30px;
     transition: all 0.5s ease 0s;
 }
 
-.services .row .col-4 .card:hover{
+.services .row .card:hover{
     background-color: rgba(147, 107, 232, 0.05);;
 }
 
-.services .row .col-4 .card i{
+.services .row .card i{
     font-size: 30px;
     color: #189A46;
 }
 
 
-.services .row .col-4 .card h5 a{
+.services .row .card h5 a{
     text-decoration: none;
     color: black;
     text-transform: capitalize;
@@ -168,20 +168,20 @@
     font-size: 24px;
     font-family: 'Jost',sans-serif;
 }
-.services .row .col-4 .card h5 a:hover{
+.services .row  .card h5 a:hover{
     color: #189A46;
 }
 
-.services .row .col-4 .card h5{
+.services .row  .card h5{
     margin-top: 25px;
     margin-bottom: 15px;
 }
 
-.services .row .col-4 .card .read {
+.services .row  .card .read {
     width: fit-content;
    
 }
-.services .row .col-4 .card .read:hover{
+.services .row  .card .read:hover{
     color: #189A46;
     
 }
@@ -196,31 +196,31 @@
     padding: 48px 25px;
 
 }
-.offers .cover .row .col-6 {
+.offers .cover .row .col-lg-6 {
     align-self: center;
 }
 
-.offers .cover .row .col-6 .content__col__left{
+.offers .cover .row  .content__col__left{
     padding: 0 10px 0 50px;
    
 }
 
-.offers .cover .row .col-6 .content__col__left img{
+.offers .cover .row  .content__col__left img{
     width: 100%;
     border-radius: 10px;
     height: auto;
 }
-.offers .cover .row .col-6 .content__col__right p{
+.offers .cover .row .content__col__right p{
     line-height: 24.5px;
     margin: 15px 0 35px 0;
     font-size: 16px;
 }
 
-.offers .cover .row .col-6 .content__col__right ul{
+.offers .cover .row  .content__col__right ul{
     padding-left: initial;
 }
 
-.offers .cover .row .col-6 .content__col__right ul li{
+.offers .cover .row .content__col__right ul li{
     list-style: none;
     text-transform: capitalize;
     font-size: 16px;
@@ -229,7 +229,7 @@
     margin: 15px 0;
 }
 
-.offers .cover .row .col-6 .content__col__right ul li i{
+.offers .cover .row  .content__col__right ul li i{
     padding: 8px;
     background-color:rgba(147, 107, 232, 0.05);
     border-radius: 50%;
@@ -253,36 +253,39 @@
 .experts .cover .title{
     margin-bottom: 3rem;
 }
-.experts .cover .row .col-3 .card{
+.experts .cover .row .col-lg-3{
+    padding: 0 15px;
+}
+.experts .cover .row .card{
     border: transparent;
     border-radius: 10px;
     overflow: hidden;
     
 }
 
-.experts .cover .row .col-3 .card img{
+.experts .cover .row  .card img{
     width: 100%;
     height: auto;
     transition: all 0.3s linear;
 }
-.experts .cover .row .col-3:hover .card img{
+.experts .cover .row .col-lg-3:hover .card img{
     transform: scale(1.1,1.1);
   
 }
-.experts .cover .row .col-3:hover .info h4{
+.experts .cover .row .col-lg-3:hover .info h4{
     color: #189A46;
 }
-.experts .cover .row .col-3 .social a i:hover{
+.experts .cover .row .social a i:hover{
     color: white;
     background-color:#189A46 ;
 }
-.experts .cover .row .col-3 .info
+.experts .cover .row  .info
 {
     margin-top: 16px;
     margin-bottom: 15px;
 }
 
-.experts .cover .row .col-3 .info h4{
+.experts .cover .row  .info h4{
     font-size: 22px;
     line-height: 26px;
     font-weight: 600;
@@ -290,25 +293,27 @@
     margin: initial;
 }
 
-.experts .cover .row .col-3 .info h6{
+.experts .cover .row  .info h6{
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
     color: #696969;
     text-transform: capitalize;
     margin: initial;
+    transition: 0.3s ease;
     
 }
-.experts .cover .row .col-3 .social a{
+.experts .cover .row  .social a{
     text-decoration: none;
 }
-.experts .cover .row .col-3 .social a i{
+.experts .cover .row .social a i{
     padding: 10px;
     border-radius: 5px;
     margin: 0 3px;
     color: #189A46;
     background-color: rgba(147, 107, 232, 0.05);
     font-size: 12px;
+    transition: 0.3s ease;
 }
 
 /* Number */
@@ -323,14 +328,14 @@
     padding: 48px 50px;
 }
 
-.number .cover .col-3 .col__content span{
+.number .cover .col__content span{
     font-size: 50px;
     line-height: 60px;
     font-weight: 600;
     color: #fff;
 }
 
-.number .cover .col-3 .col__content h4{
+.number .cover  .col__content h4{
     font-size: 20px;
     line-height: 25px;
     text-transform: capitalize;
