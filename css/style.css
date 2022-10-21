@@ -123,7 +123,7 @@ a.dropdown-item:hover{
 
 /* End of Title */
 
-/* Read More disc */
+/* Read More element */
 .read {
     text-transform: capitalize;
     margin-top: 20px;
@@ -139,3 +139,66 @@ a.dropdown-item:hover{
     color: #189A46;
 }
 
+/* End of Read More element */
+
+/* Banner for each page */
+.banner{
+    margin-top: 90px;
+    background-image: url(../img/banner4.jpg);
+    background-repeat: no-repeat;
+    background-position:  center;
+    background-size: cover;
+    position: relative;     
+    align-items: center;
+    padding: 1em 0;
+    z-index: -2;
+    
+}
+.banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    background-color: #0c0c0c;
+    opacity: .6;
+    z-index: -1;
+}
+
+.banner .content{
+    padding: 3rem 0;
+    color: #fff;
+    text-align: center;
+}
+
+.banner .content h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.banner .content .banner__content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content .banner__content p:first-of-type{
+    color: #189A46;
+    margin-right: 10px;
+
+}
+
+.banner .content .banner__content i{
+    color: #fff;
+    font-size: 12px;
+   
+}
+
+.banner .content .banner__content p:last-of-type{
+    color: #fff;
+    margin-left: 10px;
+}
+/* End of Banner */
