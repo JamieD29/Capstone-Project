@@ -131,19 +131,6 @@
     margin: 20px 0;
 }
 
-.aboutus .content a {
-    text-transform: capitalize;
-    font-size: 17px;
-    font-weight: 600;
-    color: #0c0c0c;
-    text-decoration: none;
-    border-bottom: 2px solid #189A46;
-}
-.aboutus .content a:hover{
-    color: #189A46;
-    transition: 0.3s ease-in-out;
-}
-
 /* Services */
 
 .services{
@@ -191,18 +178,12 @@
 }
 
 .services .row .col-4 .card .read {
-    text-transform: capitalize;
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: 600;
-    color: #0c0c0c;
-    text-decoration: none;
-    border-bottom: 2px solid #189A46;
     width: fit-content;
+   
 }
 .services .row .col-4 .card .read:hover{
     color: #189A46;
-    transition: 0.3s ease-in-out;
+    
 }
 
 /* Offers */

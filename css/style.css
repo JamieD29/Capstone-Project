@@ -123,5 +123,19 @@ a.dropdown-item:hover{
 
 /* End of Title */
 
+/* Read More disc */
+.read {
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #0c0c0c;
+    text-decoration: none;
+    border-bottom: 2px solid #189A46;
+    transition: 0.3s ease-in-out;
+}
 
+.read:hover{
+    color: #189A46;
+}
 
