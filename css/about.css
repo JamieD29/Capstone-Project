@@ -80,7 +80,8 @@
 
 .choice .cover {
     margin: 0 160px;
-    padding: 48px 25px; 
+    padding: 0 25px; 
+    padding-top: 40px ;
 }
 
 .choice .cover .row .col__left{
@@ -136,7 +137,7 @@
 .experts .cover{
     text-align: center;
     margin: 0 140px;
-    padding: 48px 25px;
+    padding: 40px 25px;
 }
 
 .experts .cover .title{
