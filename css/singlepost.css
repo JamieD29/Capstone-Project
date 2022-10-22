@@ -1,3 +1,103 @@
 .header{
     top: 40px !important;
 }
+
+
+.post__start{
+    padding:3rem 0;
+}
+
+.post__start .cover{
+    margin: 0 160px;
+    padding: 40px 25px;
+
+}
+
+.post__start .cover .post__title .title__container{
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.post__start .cover .post__title .title__container .title h6{
+    border-radius: 6px;
+    color: #fff;
+    font-size: 14px;
+    padding: 4px 10px;
+    font-weight: 600;
+    background-color: #189A46;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.post__start .cover .post__title .title__container .title h3{
+    margin-top: 16px ;
+}
+
+
+.post__start .cover .post__title .title__container .title__details ul{
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post__start .cover .post__title .title__container .title__details ul li{
+    
+    margin-right: 30px;
+    font-size: 16px;
+    color: #696969;
+}
+.post__start .cover .post__title .title__container .title__details ul li i{
+    color: initial;
+}
+.post__start .cover .post__title .title__container .title__details ul li span{
+    font-weight: bold;
+}
+.post__start .cover .post__image{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.post__start .cover .post__image img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post__start .cover .post__content .content_container .par_1{
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    margin-top: 1rem;
+}
+
+.post__start .cover .post__content .content_container .row{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.post__start .cover .post__content .content_container .row .content__left img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.post__start .cover .post__content .content_container .row .col-md-4, .post__start .cover .post__content .content_container .row .col-md-8{
+    padding: 0;
+} 
+.post__start .cover .post__content .content_container .row .content__right{
+    margin-left: 24px;
+}
+.post__start .cover .post__content .content_container .row .content__right p {
+    padding: 0;
+    
+}
+.post__start .cover .post__content .content_container .par_2{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 0 0;
+    margin-top: 8px;
+   
+}
