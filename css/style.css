@@ -19,10 +19,7 @@ p {
     color: #696969;
     font-family: 'Jost', sans-serif;
 }
-.container{
-    max-width:1520px ;
-    margin: auto;
-}
+    
 
 /* Header */
 .header{

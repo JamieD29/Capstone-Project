@@ -74,25 +74,30 @@
     margin-top: 1rem;
 }
 
-.post__start .cover .post__content .content_container .row{
+.row{
     max-width: 900px;
     margin: 0 auto;
     margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
 }
-.post__start .cover .post__content .content_container .row .content__left img{
+.row .content__left img, .row .content__right-2 img{
     width: 100%;
     border-radius: 10px;
 }
 
-.post__start .cover .post__content .content_container .row .col-md-4, .post__start .cover .post__content .content_container .row .col-md-8{
+.row .col-md-4, .row .col-md-8{
     padding: 0;
 } 
-.post__start .cover .post__content .content_container .row .content__right{
+.row .content__right{
     margin-left: 24px;
 }
-.post__start .cover .post__content .content_container .row .content__right p {
+.row .content__right p, .row .content__left-2 p {
     padding: 0;
     
+}
+.row .content__left-2 p{
+    margin-right: 24px;
 }
 .post__start .cover .post__content .content_container .par_2{
     max-width: 900px;
@@ -101,3 +106,172 @@
     margin-top: 8px;
    
 }
+
+/* Quote */
+.quote .cover{
+    margin: 0 160px;
+    padding: 0 25px;
+}
+.quote .cover .quote__content blockquote{
+    max-width: 900px;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+    padding-left: 45px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+}
+
+.quote .cover .quote__content blockquote .authorsquote{
+    font-size: 30px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.quote .cover .quote__content blockquote .authorsquote::before {
+    font-size: 50px;
+    color: #f53626;
+    line-height: .8;
+    padding-top: 8px;
+    font-weight: 600;
+    
+    display: inline-block;
+    font-family: "Merriweather", serif;
+  }
+
+  .quote .cover .quote__content blockquote .author{
+    display: block;
+    font-size: 16px;
+    color: #6c757d;
+    margin-top:16px;
+  }
+  
+  .quote .cover .quote__content blockquote .author::before{
+    content:"\2014";
+  }
+
+  /* Post End */
+  .post__end .cover{
+    margin: 0 160px;
+    padding: 0 24px;
+  }
+
+  .post__end .cover .post_end_content{
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .post__end .cover .post_end_content h4{
+    font-size: 28px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .post__end .cover .post_end_content h5{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696969;
+    margin-bottom: 40px;
+    font-style: italic;
+  }
+
+  .post__end .cover .post_end_content p.sub_par{
+    margin-top: 20px;
+  }
+
+  .post__end .cover .post_end_content .post_social{
+    margin-top: 24px;
+  }
+
+  .post__end .cover .post_end_content .post_social ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  .post__end .cover .post_end_content .post_social ul li{
+    display: inline-block;
+    margin: 0;
+    margin-right: 7px;
+    margin-top: 5px;
+  }
+
+  .post__end .cover .post_end_content .post_social ul li h4.social_share{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 24px;
+    margin-bottom: initial;
+  }
+
+  .post__end .cover .post_end_content .post_social ul li a{
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.3s;
+  }
+
+  .post__end .cover .post_end_content .post_social ul li a i.fa-facebook-f{
+    color: #3b5998;
+  }
+
+  .post__end .cover .post_end_content .post_social ul li a i.fa-twitter{
+    color: #1da1f2;
+  }
+  .post__end .cover .post_end_content .post_social ul li a i.fa-instagram{
+    color: #c13584;
+  }
+
+  /* Other post */
+
+  .other_post.row{
+    margin-top: 48px;
+    padding: 24px 0;
+    border-top: 1px solid rgba(147, 107, 232, 0.05);
+    border-bottom: 1px solid rgba(147, 107, 232, 0.05);
+  }
+
+  .other_post .prev{
+    padding-left: initial;
+  }
+   span.change_sign{
+    color: #999;
+  }
+  .other_post .prev_post a.row,   .other_post .next_post a.row{
+    margin-top: initial;
+    text-decoration: none;
+    margin-top: 15px;
+  }
+
+  .other_post .prev_post a.row .col-lg-3{
+    padding-left: initial;
+  }
+
+
+  .other_post .prev_post .prev_img,  .other_post .next_post .next_img{
+    width: 100%;
+    border-radius: 10px;
+  }
+  .other_post .prev_post a.row label ,   .other_post .next_post a.row label{
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: black;
+    padding-left: 2px;
+  }
+
+  .other_post .prev_post a.row label:hover,  .other_post .next_post a.row label:hover {
+    color: #189A46;
+  }
+
+  .other_post .next{
+    padding-right: initial;
+    text-align: right;
+  }
