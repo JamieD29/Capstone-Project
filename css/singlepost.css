@@ -289,14 +289,6 @@
     margin: 0 25px;
   }
 
-  .comment .details h3{
-    font-size: 28px;
-    line-height: 40px;
-    color: black;
-    margin-bottom: 25px;
-    font-weight: 600;
-    display: inline-block;
-  }
 
   .comment .details .user__comment{
     display: grid;
@@ -363,14 +355,14 @@
     padding: 1rem 0;
   }
   .related__posts .cover{
-    margin: 0 160px;
+    margin: 0 165px;
     padding: 0 25px;
   }
   .related__posts .posts__grid{
     margin: 0 20px;
   }
 
-  .related__posts .posts__grid h3{
+  h3.title_blog {
     font-size: 28px;
     line-height: 40px;
     color: black;
@@ -470,4 +462,64 @@
   margin-right: 15px;
   font-size: 15px;
   color: #888;
+}
+
+/* Reply form */
+.reply__form .container{
+  padding: 3rem 0;
+}
+.reply__form .cover{
+  margin: 0 185px;
+  padding: 0 25px 16px 25px;
+}
+
+.reply__form .form_content{
+  max-width: 900;
+  margin: 0 auto;
+}
+.reply__form .form_head{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 25px;
+}
+.form_head input , .form_body textarea{
+  outline:none;
+  width: 100%;
+  text-align: left;
+  border-radius: 6px;
+  min-height: 60px;
+  padding: 13px 20px;
+  border: 1px solid transparent;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  color: #293043;
+  background-color: rgba(147, 107, 232, 0.05);
+}
+.form_head input:focus, .form_body textarea:focus{
+    outline: none;
+    border: 1px solid #189A46;
+    box-shadow: none;
+}
+
+.form_body textarea{
+  height: 150px;
+  padding: 15px 20px;
+}
+.form_btn{
+  text-align: right;
+}
+.form_btn button{
+  padding: 12px 35px;
+  font-size: 18px;
+  line-height: 28px;
+  text-transform: capitalize;
+  font-weight: 400;
+  border-radius: 10px;
+}
+
+.form_btn .btn-success:hover{
+  color: #fff;
+  background-color: #116E32;
+  border-color: #116E32;
 }
