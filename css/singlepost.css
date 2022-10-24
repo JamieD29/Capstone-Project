@@ -356,3 +356,118 @@
   a.reply:hover{
     text-decoration: underline;
   }
+
+  /* Related Posts */
+
+  .related__posts .container{
+    padding: 1rem 0;
+  }
+  .related__posts .cover{
+    margin: 0 160px;
+    padding: 0 25px;
+  }
+  .related__posts .posts__grid{
+    margin: 0 20px;
+  }
+
+  .related__posts .posts__grid h3{
+    font-size: 28px;
+    line-height: 40px;
+    color: black;
+    margin-bottom: 25px;
+    font-weight: 600;
+    display: inline-block;
+  }
+
+  .related__posts .posts__grid .row{
+     max-width: initial; 
+     margin:initial; 
+     margin-top: initial;
+  }
+
+  .related__posts .posts__grid .row .card{
+    border: none;
+    background: white;
+    transition: .3s ease;
+    border-radius: 8px;
+  
+  }
+
+
+  .related__posts .posts__grid .row .card:hover{
+    transform: translateY(-0.5rem);
+    transition: .3s ease;
+
+  }
+ 
+
+  .related__posts .card .card_head img{
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+  }
+
+.related__posts .card .card_body{
+  border: 1px solid #f0f3f0;
+  border-top: none;
+  padding: 30px 20px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 25px 98px 0 rgb(19 19 19 / 3%);
+}
+
+.related__posts .card:hover .card_body{
+  box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 9%);
+ }  
+
+.related__posts .card .card_body a{
+  display: block;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: black;
+  text-decoration: none;
+}
+.card-1{
+  padding-left: initial;
+  padding-right: 15px;
+}
+
+.card-2{
+  padding-right: initial;
+  padding-left: 15px;
+}
+.related__posts .card .card_body a:hover{
+  color: #189A46;
+}
+
+.related__posts .card .card_body .card_author{
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.related__posts .card .card_body .card_author span.name{
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+}
+.related__posts .card .card_body .card_author span.name:hover{
+  color: red;
+}
+
+.related__posts .card .card_body .card_author span.date{
+  color: #bbb6bf;
+  font-size: 1rem;
+}
+.related__posts .card .card_body ul{
+  padding-left: initial;
+  list-style: none;
+  margin-bottom: initial;
+}
+
+.related__posts .card .card_body ul li{
+  display: inline-block;
+  margin-right: 15px;
+  font-size: 15px;
+  color: #888;
+}
