@@ -114,7 +114,7 @@
 }
 
 .aboutus .aboutus__cover {
-    margin: 0 160px;
+    margin: 0 60px;
     padding: 48px 25px;
     
 }
@@ -139,7 +139,7 @@
 }
 
 .services .content{
-    margin: 0 90px;
+    margin: 0 60px;
     padding: 48px 25px;
 }
 
@@ -192,7 +192,7 @@
 }
 
 .offers .cover{
-    margin: 0 140px;
+    margin: 0 30px;
     padding: 48px 25px;
 
 }
@@ -246,7 +246,7 @@
 
 .experts .cover{
     text-align: center;
-    margin: 0 140px;
+    margin: 0 45px;
     padding: 48px 25px;
 }
 
@@ -324,7 +324,7 @@
 
 .number .cover{
     text-align: center;
-    margin: 0 110px;
+    margin: 0 30px;
     padding: 48px 50px;
 }
 
