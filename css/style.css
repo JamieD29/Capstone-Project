@@ -221,4 +221,9 @@ a.dropdown-item:hover{
     .navbar-toggler:focus{
         box-shadow: none;
     }
+
+    .title h3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
 }
