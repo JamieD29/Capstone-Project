@@ -200,3 +200,25 @@ a.dropdown-item:hover{
     text-transform: capitalize;
 }
 /* End of Banner */
+
+/* Tablet */
+@media screen and (max-width: 992px){
+    div#navbarScroll {
+        text-align: center;
+    }
+    .header .navbar-nav .nav-item a.nav-link:hover::before{
+       content: none;
+    }
+    ul.dropdown-menu.show {
+        text-align:center;
+    }
+
+    button.navbar-toggler {
+        border: 1px solid transparent;
+        background: #189A46;
+        
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+}

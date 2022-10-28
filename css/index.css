@@ -344,3 +344,88 @@
     opacity: 0.8;
     font-weight: 400;
 }
+
+
+
+
+
+
+
+/* responsive & adaptive */
+
+/* Desktop */
+@media screen and (max-width:1200px) {
+    .container{
+    max-width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    .carousel-inner .carousel-caption{
+        top:52%;
+        left: 8%;
+    }
+    .carousel-inner .caption__center{
+        left: 30%;
+    }
+    .carousel-inner .carousel-caption .caption__title h5{
+        font-size: 52px;
+        line-height: 62px;
+    }
+    .carousel-inner .carousel-caption .caption__title p{
+        font-size: 15px;
+    }
+    .aboutus .content{
+        margin: 0 40px;
+    }
+    .aboutus .content p{
+        margin-bottom: 30px;
+    }
+    .services .container{
+        padding: 0;
+    }
+    .services .content{
+        margin: 0;
+        padding: 48px 8px;
+    }
+    .services .row .col-lg-4{
+        padding: 0 15px;
+    }
+    .services .row .card{
+        margin-bottom: 30px;
+    }
+    .offers .cover {
+        margin: 0 ;
+        padding: 30px 0px;
+    }
+    .offers .cover .row  .content__col__left{
+        padding: 0 10px 0 30px;
+    }
+
+    .experts .cover{
+       margin: 0;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      padding: 0;
+    }
+    .number{
+        padding: 20px 0;
+    }
+    .number .cover{
+        margin:0 20px;
+        padding: 40px 0;
+    }
+    
+}
+/* Tablet */
+@media screen and (max-width: 992px){
+
+}
+/* mobile horizontal rotate */
+
+@media  screen and (max-width:768px) {
+    
+}
+/* mobile vertical rotate */
+@media screen and (max-width: 576px) {
+    
+}
