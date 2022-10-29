@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .header{
+    top: 40px !important;
+  }
   h1, h2, h3, h4, h5, h6 {
   color: #000c04;
   font-family: 'Jost', sans-serif;
@@ -11,7 +14,7 @@
   .container {
     max-width: 1200px;
   }
-  .gallery {
+  /* .gallery {
     background-image: url(../img/banner4.jpg);
     background-position: center;
     background-size: cover;
@@ -58,7 +61,7 @@
     color: #fff;
     font-size: 16px;
     width: 50px;
-  }
+  } */
   
   .view-gallery {
     margin-top: 50px;
