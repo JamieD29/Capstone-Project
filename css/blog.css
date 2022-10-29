@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
   }
+  .header{
+    top: 40px !important;
+}
+
+
   h1,
   h2,
   h3,
@@ -16,7 +21,7 @@
   .container {
     max-width: 1200px;
   }
-  .gallery {
+  /* .gallery {
     background-image: url(../img/banner4.jpg);
     background-position: center;
     background-size: cover;
@@ -64,7 +69,7 @@
     font-size: 16px;
     width: 50px;
   }
-  
+   */
 
   /* BLOG */
   .blog {
