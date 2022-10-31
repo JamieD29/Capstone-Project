@@ -344,12 +344,12 @@
 }
 
 .nutrition .main .nutrition-content {
-  font-family: "Jost", sans-serif;
   margin-bottom: 40px;
 }
 .nutrition p {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.2em;
+  line-height: 28px;
+  font-family: "Jost", sans-serif;
   color: #696969;
 }
 .nutrition .main .banner_img {
@@ -375,6 +375,10 @@
   line-height: 55px;
   border-radius: 50%;
 }
+
+/* .nutrition .main .banner_img .button i:hover {
+  transform: scale(1.1);
+} */
 
 /* Plan */
 .plan {
@@ -403,13 +407,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  /* gap: 20px; */
-  max-width: 1020px;
+  max-width: 1050px;
   margin: auto;
 }
+
 .plan .plan-content .item-1 {
   background-color: #fff;
-  padding: 50px 10px 0px 10px;
+  padding: 3.5em 2.5em;
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   margin: 100px 0 160px 0;
@@ -448,20 +452,26 @@
 .plan .plan-content .item-1 .item-bottom {
   text-align: center;
 }
-.plan .plan-content .item-1 .item-bottom .item-info {
-  margin-right: 25px;
-  margin-bottom: 50px;
+.plan .plan-content .item-bottom .item-info ul {
+  padding-left: 0px;
+  margin-bottom: 0;
+  min-height: 120px;
 }
-.plan .plan-content .item-1 .item-bottom li {
+.plan .plan-content .item-bottom li {
   list-style: none;
   text-transform: capitalize;
-  margin-bottom: 10px;
-  color: #304659;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: normal;
+  margin-bottom: 5px;
 }
-.plan .plan-content .item-1 .item-bottom .button {
+.plan .plan-content .item-bottom li p{
+color: #696969;
+font-size: 18px;
+line-height: 28px;
+font-weight: normal;
+font-family: 'Jost', sans-serif;
+padding-top: 6px;
+}
+
+.plan .plan-content .item-bottom .button {
   width: 150px;
   height: 50px;
   border-radius: 10px;
@@ -469,6 +479,7 @@
   background-color: #189a46;
   color: #fff;
   font-size: 18px;
+  margin-top: 2em;
 }
 
 .plan .plan-content .item-2 {
@@ -479,27 +490,24 @@
 }
 
 .plan .plan-content .item-2 .item-top-2 {
-  padding: 50px 10px 10px 10px;
+  padding: 3.5em 2.5em .5em;
   text-align: center;
   background-color: #189a46;
   color: #fff;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
-.plan .plan-content .item-2 .item-top-2 .save {
-  margin: 0 100px;
-  padding: 3px 3px;
-  background-color: #fff;
-  border-radius: 15px;
-  margin-bottom: 30px;
-}
-.plan .plan-content .item-2 .item-top-2 .save h5 {
+.plan .plan-content .item-2 .item-top-2 h5 {
   color: #189a46;
   font-size: 15px;
   line-height: 20px;
   text-align: center;
-  margin-top: 0.5rem;
+  margin-bottom: 30px;
   font-weight: 700;
+  display: inline-block;
+  padding: 8px 20px;
+  background-color: #fff;
+  border-radius: 10px;
 }
 .plan .plan-content .item-2 .item-top-2 h6 {
   text-align: center;
@@ -529,32 +537,9 @@
   text-align: center;
   margin-top: 40px;
 }
-.plan .plan-content .item-2 .item-bottom .item-info {
-  margin-right: 25px;
-  /* vì phía trên đang chỉnh css li.navbar margin-left: 25px  */
-  margin-bottom: 30px;
-}
-.plan .plan-content .item-2 .item-bottom li {
-  list-style: none;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-  color: #304659;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: normal;
-}
-.plan .plan-content .item-2 .item-bottom .button {
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px;
-  background-color: #189a46;
-  color: #fff;
-  font-size: 18px;
-}
 .plan .plan-content .item-3 {
   background-color: #fff;
-  padding: 50px 10px 10px 10px;
+  padding: 3.5em 2.5em;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
   margin: 120px 0 180px 0;
@@ -593,41 +578,20 @@
 .plan .plan-content .item-3 .item-bottom {
   text-align: center;
 }
-.plan .plan-content .item-3 .item-bottom .item-info {
-  margin-right: 25px;
-  /* vì phía trên đang chỉnh css li.navbar margin-left: 25px  */
-  margin-bottom: 30px;
-}
-.plan .plan-content .item-3 .item-bottom li {
-  list-style: none;
-  text-transform: capitalize;
-  margin-bottom: 10px;
-  color: #304659;
-  font-size: 18px;
-  line-height: 28px;
-  font-weight: normal;
-}
-.plan .plan-content .item-3 .item-bottom .button {
-  width: 150px;
-  height: 50px;
-  border-radius: 10px;
-  border: 1px;
-  background-color: #189a46;
-  color: #fff;
-  font-size: 18px;
-  margin-bottom: 40px;
-}
 
-/* stay with us */
-/* .stay {
-  margin-top: 30px;
-} */
+/* Stay Upadted */
 .stay .main {
-  padding: 80px 323px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.stay .main .row { 
+  max-width: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 80px 0;
 }
 .stay .main .stay-title {
-  padding: 0 70px;
-  text-align: center;
+ text-align: center;
 }
 .stay .main .stay-title h2 {
   font-size: 40px;
@@ -640,6 +604,7 @@
   margin-top: 20px;
   font-family: "Jost", sans-serif;
   text-align: center;
+  padding: 0;
 }
 .stay .main .stay-text p {
   font-size: 1.2em;
@@ -1045,7 +1010,49 @@ a {
     margin: 0 20px;
     padding: 40px 0;
   }
+
+  /* nutrition */
+
+.nutrition .main {
+  max-width: 690px;
 }
+.nutrition .main .banner_img img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+/* plan */
+
+.plan .container {
+  width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.plan .plan-content {
+  max-width: 620px;
+}
+.plan .plan-content .item-bottom .button{
+  display: none;
+}
+
+/* stay */
+
+.stay .container  {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+}
+
+
+
+
+
 /* Tablet */
 @media screen and (max-width: 992px) {
   .carousel-inner .carousel-caption .caption__title h5 {
