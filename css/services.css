@@ -43,3 +43,23 @@
 .list .cover .row .col__right p, .list .cover .row .col__left-2 p{
     margin: 16px 0 36px 0;
 }
+
+/* responsive & adaptive */
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+  
+}
+/* Tablet */
+@media screen and (max-width: 992px) {
+
+}
+/* mobile horizontal rotate */
+
+@media screen and (max-width: 768px) {
+}
+/* mobile vertical rotate */
+@media screen and (max-width: 576px) {
+
+
+}
