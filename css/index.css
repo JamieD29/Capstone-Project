@@ -141,7 +141,7 @@
 .services .row .card {
   border: transparent;
   margin-bottom: 25px;
-  padding: 40px 30px;
+  padding: 40px 35px;
   transition: all 0.5s ease 0s;
 }
 
@@ -1070,10 +1070,13 @@ a {
     margin: 0;
     padding: 48px 50px;
   }
+  
   .offers .cover {
     margin: 0 60px;
   }
-
+  .offers .cover .row .content__col__left {
+    padding: 0;
+}
   .offers .content__col__right {
     padding: 30px 35px;
     margin-top: 20px;
@@ -1090,16 +1093,99 @@ a {
   }
   .number .cover .col__content h4 {
     font-size: 18px;
+    margin-top: 0;
   }
   .number .cover {
     margin: 0 20px;
     padding: 40px 90px;
   }
+  /* Half page responsive tablet */
 }
 /* mobile horizontal rotate */
 
 @media screen and (max-width: 768px) {
+  .aboutus .aboutus__cover {
+    margin: 0 20px;
+    padding: 48px 0px;
+}
+.services .content {
+  padding: 45px 10px;
+}
+
+.offers .cover {
+  margin: 0 30px;
+}
+.offers .content__col__right {
+  padding: 30px 0px;
+  margin-top: 20px;
+}
+.experts .cover {
+  padding: 0px 55px;
+}
+.number .cover {
+  padding: 40px 45px;
+}
+.number .cover .col__content span {
+  font-size: 35px;
+}
+.number .cover .col__content h4 {
+  font-size: 17px;
+}
+   /* Half page responsive mobile horizontal rotate */
 }
 /* mobile vertical rotate */
 @media screen and (max-width: 576px) {
+  #PoochCarousel .carousel-inner img{
+    height: 440px;
+  }
+  .carousel-inner .carousel-caption {
+    top: 45%;
+    left: 5px;
+}
+
+  .carousel-inner .carousel-caption .caption__title h5{
+    font-size: 32px;
+  }
+  .carousel-inner .carousel-caption .caption__btn {
+    margin-top: 30px;
+}
+.aboutus .container, .number .container {
+  padding-left: 0;
+  padding-right: 0;
+}
+.aboutus .aboutus__cover{
+  margin: 0 15px;
+}
+.aboutus .content {
+  margin: 0 ;
+}
+.services {
+  padding: 3rem 0rem;
+}
+.services .row{
+  --bs-gutter-x: 0;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+.services .row .card{
+  padding: 40px 30px;
+}
+.services .content {
+  padding: 45px 0px;
+}
+.offers .cover {
+  margin: 0;
+}
+
+.experts .cover {
+  padding: 0;
+}
+
+.number .cover {
+  padding: 40px 0px;
+}
+
+/* Fixing Section Services */
+
 }

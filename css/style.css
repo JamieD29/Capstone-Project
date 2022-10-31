@@ -201,7 +201,7 @@ a.dropdown-item:hover{
 }
 /* End of Banner */
 
-
+/* footer */
 .footer {
     background-color: #111;
   }
@@ -312,4 +312,10 @@ a.dropdown-item:hover{
     }
 }
 
-/* footer */
+@media screen and (max-width: 768px){
+    .title h3 {
+        font-size: 32px;
+      
+    }
+}
+

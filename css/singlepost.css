@@ -523,3 +523,23 @@
   background-color: #116E32;
   border-color: #116E32;
 }
+
+/* responsive & adaptive */
+
+/* Desktop */
+@media screen and (max-width: 1200px) {
+  
+}
+/* Tablet */
+@media screen and (max-width: 992px) {
+
+}
+/* mobile horizontal rotate */
+
+@media screen and (max-width: 768px) {
+}
+/* mobile vertical rotate */
+@media screen and (max-width: 576px) {
+
+
+}
