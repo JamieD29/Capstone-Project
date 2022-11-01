@@ -528,18 +528,141 @@
 
 /* Desktop */
 @media screen and (max-width: 1200px) {
-  
+  .post__start .cover {
+    margin: 0;
+    padding: 40px 0;
+}
+.post__start .post__content{
+  padding: 0 8px;
+}
+.quote .cover {
+ margin: 0;
+ padding: 0;
+}
+.post__end .cover {
+  margin: 0 ; 
+  padding: 0 ;
+}
+.comment .cover {
+  margin: 0;
+  padding: 16px 0px;
+}
+.related__posts .cover {
+  margin: 0;
+  padding: 0;
+}
+.reply__form .cover {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 16px;
+}
 }
 /* Tablet */
 @media screen and (max-width: 992px) {
+  .post__start .container {
+    padding-right: 0;
+    padding-left: 0;
+    padding: 0 8px;
+  }
+  .row{
+    align-items: initial;
+  }
+  .post__end .container{
+      padding-left: 0;
+      padding-right: 0;
+      padding: 0 15px;
+  }
+  .comment .container {
+    padding: 3rem 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 0 55px;
+}
 
 }
 /* mobile horizontal rotate */
 
 @media screen and (max-width: 768px) {
+  .post__start {
+    padding: 1rem 0;
+}
+.post__start .cover .post__title .title__container .title__details ul li{
+  font-size: 15px;
+}
+.row .content__right {
+ margin-left: 0;
+}
+.quote .cover {
+  padding: 0 15px;
+}
+.quote .cover .quote__content blockquote .authorsquote{
+  font-size: 24px;
+  line-height: 34px;
+}
+.other_post .prev_post a.row .col-lg-3,.other_post .next_post a.row .col-lg-3  {
+  padding-left: initial;
+  display: none;
+}
+.other_post .prev_post a.row {
+  justify-content: flex-start;
+}
+.other_post .next_post a.row{
+  justify-content: flex-end;
+}
+.other_post .prev_post a.row label, .other_post .next_post a.row label {
+  width: 100%;
+}
+.comment .details {
+  margin: 0 20px;
+}
+.related__posts .posts__grid {
+  margin: 0 10px;
+}
+.card-1 {
+ 
+   padding-right: initial; 
+}
+.card-2 {
+  padding-left: initial; 
+}
+.reply__form .form_content {
+  padding: 0 10px;
+}
 }
 /* mobile vertical rotate */
 @media screen and (max-width: 576px) {
+  .post__start .cover .post__title .title__container .title__details ul {
+    flex-wrap: wrap;
+  }
+  .post__start .cover .post__title .title__container .title__details ul li{
+    margin-right: 25px;
+  }
+  .quote .cover .quote__content blockquote .authorsquote {
+    font-size: 20px;
+    line-height: 30px;
+}
+.quote .cover .quote__content blockquote {
+  padding-left: 25px;
+  padding-right: 20px;
+}
+.post__end .cover .post_end_content h4 {
+  font-size: 20px;
+}
+.post__end .cover .post_end_content h5 {
+  font-size: 18px;
+}
+.comment .container {
+  margin: 0 5px;
+}
+.comment .details {
+  margin: 0;
+}
 
+.user__comment .comment_body {
+  padding-right: 20px;
+}
 
+.side_comment .comment_body {
+  padding-right: 32px;
+}
 }
