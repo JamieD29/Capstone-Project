@@ -279,14 +279,20 @@
   /* comment */
   .comment .container{
     padding: 3rem 0;
+    
   }
   .comment .cover{
-    margin: 0 160px;
-    padding: 16px 25px;
+   
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .comment .details{
-    margin: 0 25px;
+    max-width: 900px;
+    margin: 0 auto;
   }
 
 
@@ -652,7 +658,10 @@
   font-size: 18px;
 }
 .comment .container {
-  margin: 0 5px;
+  margin: 0;
+  margin-left: 5px;
+  --bs-gutter-x: 0;
+  width: 98%;
 }
 .comment .details {
   margin: 0;
@@ -664,5 +673,8 @@
 
 .side_comment .comment_body {
   padding-right: 32px;
+}
+.reply__form .form_head{
+  grid-template-columns: 1fr;
 }
 }
