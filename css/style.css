@@ -215,6 +215,7 @@ a.dropdown-item:hover{
   
   .footer .footer-left {
     width: 50%;
+  padding: 0 15px;
   } 
   
   .footer-col h6 {
@@ -263,6 +264,8 @@ a.dropdown-item:hover{
     }
   
     .footer-right {
+      width: 50%;
+      padding: 0 15px;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 100px;
@@ -325,9 +328,10 @@ a.dropdown-item:hover{
   
   .footer .footer-left {
     width: 40%;
+
   }  
     .footer-right {
-    width: 50%;
+    width: 60%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       gap: 30px;
@@ -339,6 +343,24 @@ a.dropdown-item:hover{
         font-size: 32px;
       
     }
+    .footer {
+      background-color: #111;
+    }
+    .footer .footer-top{
+      padding: 50px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+    .footer .footer-left {
+      width: 40%;
+    }  
+      .footer-right {
+      width: 60%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+      }
 }
 
 /* mobile vertical rotate */
@@ -363,10 +385,3 @@ a.dropdown-item:hover{
           gap: 30px;
         }
     }
-    
-    @media screen and (max-width: 768px){
-        .title h3 {
-            font-size: 32px;
-          
-        }
-}
